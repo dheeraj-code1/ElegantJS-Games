@@ -1,0 +1,56 @@
+
+ 
+ html,body{
+  background-color: aqua;
+  font-weight: bold;
+  color: black;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100%;
+}
+.content {
+  max-width: 475px;
+  margin: auto;
+}
+.title{
+  font-size: 50px;
+}
+.block{
+  display: grid;
+  grid-template-columns: 122px 122px 122px;
+}
+.button{
+  
+  border-color:black;
+  border-width: 3px;
+  width: 120px;
+  height: 120px; 
+  margin: 1px .1px;
+}
+
+.move-icon{
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 60px;
+
+}
+
+.move{
+  margin-top: 10px;
+  padding: 10px 8px;
+}
+.move1{
+  border-radius: 12.5px;
+  height:25px;
+  width: 25px;
+  background-color: transparent;
+  
+}
+
+.reset-score-button,.reserGameButton{
+  padding: 15px 60px;
+  border-radius: 12px;
+  font-size: large;
+  font-weight: bold;
+}

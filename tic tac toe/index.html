@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Tic Tak Toe
+    </title>
+    <link rel="stylesheet"
+    href="styles/13-tic-tac-toe.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div class="content">
+
+
+    <div class="title"> Tic Tak Toe</div>
+    <div class="block">
+        <div class="row1">
+          <button class="button js-button0"onclick="buttonHandle(0)"> </button>
+          <button class="button js-button1" onclick="buttonHandle(1)"> </button>
+          <button class="button js-button2" onclick="buttonHandle(2)"> </button>
+        </div>
+
+        <div class="row2">
+          <button class="button js-button3"onclick="buttonHandle(3)"></button>
+          <button class="button js-button4" onclick="buttonHandle(4)"> </button>
+          <button class="button js-button5" onclick="buttonHandle(5)"> </button>
+        </div>
+      <div class="row3">
+        <button class="button js-button6" onclick="buttonHandle(6)"> </button>
+        <button class="button js-button7" onclick="buttonHandle(7)"> </button>
+        <button class="button js-button8" onclick="buttonHandle(8)"> </button>
+      </div>
+
+    </div>
+        <p class="js-showResult"></p>
+        <p class="js-showIcon">
+
+          Choose any move player 1:
+
+          <button onclick="player1Move='X';player2Move='O';showIcon();playerTurn()" class="js-move-x move"><img class="move1"src="X-emoji.png"></button>
+          <button onclick="player2Move='X';player1Move='O'; showIcon(); playerTurn()" class="js-move-o move"><img class="move1" src="O-emoji.png"></button>
+        </p>
+        <p class="js-PlayerTurn"></p>
+        <p class="js-score">Player1: 0 Player2: 0 Ties: 0</p>
+
+  
+      <p class="js-resetScoreButton"> 
+          <button onclick="resetScore()" class="reset-score-button">
+            Reset score
+          </button>
+          <button class="reserGameButton" onclick="resetGame()">Reset Game</button>
+      </p>
+ 
+
+    
+    </div>
+      <script src="scripts/13-tic-tak-toe.js">
+        console.log();
+      
+      </script>
+  </body>
+</html>
